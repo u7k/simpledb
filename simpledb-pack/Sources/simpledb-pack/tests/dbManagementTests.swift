@@ -1,6 +1,6 @@
 //
-//  DbManagementsTests.swift
-//  DbManagementsTests
+//  dbManagementTests.swift
+//  dbManagementTests
 //
 //  Created by Uygur Kıran on 17.09.2021.
 //

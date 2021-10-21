@@ -1,17 +1,17 @@
 //
-//  KeyValueTests.swift
-//  KeyValueTests
+//  keyValueTests.swift
+//  keyValueTests
 //
 //  Created by Uygur Kıran on 18.09.2021.
 //
 
 import Foundation
 
-final class KeyValueTests: CrbTest {
+final class keyValueTests: sdbTest {
     private override init() {
         super.init()
     }
-    static let shared = KeyValueTests()
+    static let shared = keyValueTests()
     
     func testAllCases() {
         validateKeyValueGetSet()
@@ -77,7 +77,7 @@ final class KeyValueTests: CrbTest {
     }
     
     
-    // TODO: performance test with 1000 keys and timing
+    // TODO: performance test with 1000 keys, etc.
     
     
 } //: end

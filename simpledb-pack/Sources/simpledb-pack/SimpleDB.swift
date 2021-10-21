@@ -69,8 +69,8 @@ public final class SimpleDB {
     }
     
     public static func runTests() {
-        DbManagementTests.shared.testAllCases()
-        KeyValueTests.shared.testAllCases()
+        dbManagementTests.shared.testAllCases()
+        keyValueTests.shared.testAllCases()
     }
     
 } //: end

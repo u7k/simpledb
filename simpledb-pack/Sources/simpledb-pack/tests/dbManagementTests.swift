@@ -7,11 +7,11 @@
 
 import Foundation
 
-final class DbManagementTests: CrbTest {
+final class dbManagementTests: sdbTest {
     private override init() {
         super.init()
     }
-    static let shared = DbManagementTests()
+    static let shared = dbManagementTests()
     
     func testAllCases() {
         validateDbCreation()

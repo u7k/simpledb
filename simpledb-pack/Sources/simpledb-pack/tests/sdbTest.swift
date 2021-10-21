@@ -7,7 +7,7 @@
 
 import Foundation
 
-internal class CrbTest {
+internal class sdbTest {
     /// Calc execution time
     private var t0 = DispatchTime.now()
     private func timerStart() { t0 = DispatchTime.now() }
